@@ -1,4 +1,4 @@
-## 🛍️Cinema Webpage Exercise
+## 💺Cinema Webpage Exercise
 A basic cinema web application for ticket booking and seat selection.
 
 > ℹ️ This project is not open source and does not grant any usage rights.
