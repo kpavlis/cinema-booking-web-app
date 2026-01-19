@@ -1,6 +1,6 @@
 # 💺 Cinema Booking Web Application
 
-**A simple cinema web application for ticket booking.**
+**A simple web app for cinema ticket booking and basic film and user management.**
 
 > ℹ️ This project is not open source and does not grant any usage rights.
 > For usage terms and legal information, see [Code Ownership & Usage Terms](#-code-ownership--usage-terms).
@@ -9,9 +9,27 @@
 This project is a full-stack cinema web application that demonstrates fundamental web development concepts through a practical, functional example. The application provides a user-friendly interface that allows visitors to browse and reserve movie tickets, while showcasing core backend operations for data management.
 
 ## ⚡Features
- - 🔐 User registration and authentication
- - 🕒 View available screening times by date
- - 💺 Ticket booking of the desired movie and cinema
+
+### 🔐 Authentication
+ - Secure login system (password hashing) for Customers, Admins, and Content Admins
+ - Role-based access control with dynamic navigation
+
+### 🎟️ Customer Panel
+ - Browse available projections 📅
+ - Make reservations with film and cinema selection 🛒
+ - View and cancel existing reservations ❌
+ - Receive confirmation feedback for actions ✅
+
+### 🧑‍💼 Admin Panel
+ - View all users 👥
+ - Search, update, delete users ✏️
+ - Register new users with role assignment 📝
+
+### 🎬 Content Admin Panel
+ - Insert and manage films 🎞️
+ - View film listings and projections 📋
+ - Assign films to cinemas (create projections) 🏛️
+ - Delete films 🗑️
 
 ## 🧠 Technologies Used
  - MVC architecture
@@ -21,7 +39,7 @@ This project is a full-stack cinema web application that demonstrates fundamenta
  - Bootstrap for UI
 
 ## 🎯 Purpose
-A full-stack cinema web application built to demonstrate dynamic user interactions on the frontend and core database operations on the backend. **It is developed solely for academic and research purposes.**
+This project delivers a modular, role-based cinema reservation system tailored for administrators, content managers, and customers. It streamlines user management, film curation, and ticket booking through intuitive web interfaces, ensuring efficient operations and a smooth user experience across all roles. **It is developed solely for academic and research purposes.**
 
 ## 🧰 Prerequisites
 Before building and running this application, ensure you have the following:
@@ -44,6 +62,16 @@ cd cinema-booking-web-app
 5. **Replace** the default `src` folder of the newly created project in Eclipse with that contained in this repository
 6. **Set** the required attributes in `context.xml` file to complete the database connection
 7. **Run** the project on the installed Tomcat server and create new users via the `Sign Up` page
+
+## 📷 Screenshots
+
+**_App Screens:_**  
+> <img width="300" height="145" alt="Cinema_Booking_1" src="resources/screenshots/log_in.png" />
+> <img width="300" height="145" alt="Cinema_Booking_2" src="resources/screenshots/customer_make_reservation.png" />
+> <img width="300" height="145" alt="Cinema_Booking_3" src="resources/screenshots/customer_reservations.png" />
+> <img width="300" height="145" alt="Cinema_Booking_4" src="resources/screenshots/content_admin_available_films.png" />
+> <img width="300" height="145" alt="Cinema_Booking_5" src="resources/screenshots/content_admin_delete_films.png" />
+> <img width="300" height="145" alt="Cinema_Booking_6" src="resources/screenshots/admin_sign_up_user.png" />
 
 # 🔒 Code Ownership & Usage Terms
 This project was created and maintained by:
