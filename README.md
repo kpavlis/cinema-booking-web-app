@@ -6,7 +6,9 @@
 > For usage terms and legal information, see [Code Ownership & Usage Terms](#-code-ownership--usage-terms).
 
 ## 📕 Overview
-This project is a full-stack cinema web application that demonstrates fundamental web development concepts through a practical, functional example. The application provides a user-friendly interface that allows visitors to browse and reserve movie tickets, while showcasing core backend operations for data management.
+This project is a full-stack cinema web application that demonstrates fundamental web development concepts through a practical, functional example. The application provides a user-friendly interface that allows visitors to browse and reserve movie tickets, while showcasing core backend operations for data management.  
+
+> 📌 The **`resources`** folder contains supporting material such as screenshots and database configuration files.
 
 ## ⚡Features
 
@@ -46,6 +48,7 @@ Before building and running this application, ensure you have the following:
  - **Eclipse IDE** for Enterprise Java and Web Developers
  - **MySQL Workbench** (version 8.0 or newer)
  - **MySQL Server** (version 8.0 or newer)
+ - **Access to a database schema compatible with the MySQL Workbench** (the database schema is provided <a href="resources/database_config/database_schema.sql">here</a>)
  - **Apache Tomcat** (version 9.0 or newer)
 
 ## 📦 Installation
