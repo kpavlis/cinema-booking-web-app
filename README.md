@@ -48,7 +48,7 @@ Before building and running this application, ensure you have the following:
  - **Eclipse IDE** for Enterprise Java and Web Developers
  - **MySQL Workbench** (version 8.0 or newer)
  - **MySQL Server** (version 8.0 or newer)
- - **Access to a database schema compatible with the MySQL Workbench** (the database schema is provided <a href="resources/database_config/database_schema.sql">here</a>)
+ - **Access to a database schema compatible with the application** (the database schema is provided <a href="resources/database_config/database_schema.mwb">here</a>)
  - **Apache Tomcat** (version 9.0 or newer)
 
 ## 📦 Installation
