@@ -57,11 +57,11 @@ git clone https://github.com/kpavlis/cinema-booking-web-app.git
 cd cinema-booking-web-app
 ```
 2. **Use** MySQL Workbench to create a new database in your MySQL Server
-3. **Open** the provided `FINAL_DATABASE.mwb` file in MySQL Workbench and use the "Forward Engineer" to import the schema in your newly created database 
-4. **Create** a new `Dynamic Web Project` in Eclipse IDE for Enterprise Java and Web Developers
-5. **Replace** the default `src` folder of the newly created project in Eclipse with that contained in this repository
-6. **Set** the required attributes in `context.xml` file to complete the database connection
-7. **Run** the project on the installed Tomcat server and create new users via the `Sign Up` page
+3. **Open** the provided `FINAL_DATABASE.mwb` file in MySQL Workbench and use the **Forward Engineer** to import the schema into your newly created database 
+4. **Create** a new **Dynamic Web Project** in Eclipse IDE for Enterprise Java and Web Developers
+5. **Replace** the default `src` folder of the newly created project in Eclipse with the `src` folder contained in this repository
+6. **Set** the required attributes in the `context.xml` file to complete the database connection
+7. **Run** the project on the installed Tomcat server and create new users via the **Sign Up** page
 
 ## 📷 Screenshots
 
